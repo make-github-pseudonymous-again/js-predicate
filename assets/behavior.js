@@ -33,11 +33,91 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "foldPrefix": "^",
           "name": "JavaScript"
         },
-        "sourcePath": "/home/aureooms/dev/js/js-predicate/js/src/dummy.js",
-        "projectPath": "js/src/dummy.js",
-        "targetPath": "dummy",
-        "pageTitle": "dummy",
-        "title": "dummy"
+        "sourcePath": "/home/aureooms/dev/js/js-predicate/js/src/conjunction.js",
+        "projectPath": "js/src/conjunction.js",
+        "targetPath": "conjunction",
+        "pageTitle": "conjunction",
+        "title": "conjunction"
+      },
+      "depth": 1,
+      "outline": []
+    }, {
+      "type": "file",
+      "data": {
+        "language": {
+          "nameMatchers": [".js"],
+          "pygmentsLexer": "javascript",
+          "multiLineComment": ["/*", "*", "*/"],
+          "singleLineComment": ["//"],
+          "ignorePrefix": "}",
+          "foldPrefix": "^",
+          "name": "JavaScript"
+        },
+        "sourcePath": "/home/aureooms/dev/js/js-predicate/js/src/disjunction.js",
+        "projectPath": "js/src/disjunction.js",
+        "targetPath": "disjunction",
+        "pageTitle": "disjunction",
+        "title": "disjunction"
+      },
+      "depth": 1,
+      "outline": []
+    }, {
+      "type": "file",
+      "data": {
+        "language": {
+          "nameMatchers": [".js"],
+          "pygmentsLexer": "javascript",
+          "multiLineComment": ["/*", "*", "*/"],
+          "singleLineComment": ["//"],
+          "ignorePrefix": "}",
+          "foldPrefix": "^",
+          "name": "JavaScript"
+        },
+        "sourcePath": "/home/aureooms/dev/js/js-predicate/js/src/equivalence.js",
+        "projectPath": "js/src/equivalence.js",
+        "targetPath": "equivalence",
+        "pageTitle": "equivalence",
+        "title": "equivalence"
+      },
+      "depth": 1,
+      "outline": []
+    }, {
+      "type": "file",
+      "data": {
+        "language": {
+          "nameMatchers": [".js"],
+          "pygmentsLexer": "javascript",
+          "multiLineComment": ["/*", "*", "*/"],
+          "singleLineComment": ["//"],
+          "ignorePrefix": "}",
+          "foldPrefix": "^",
+          "name": "JavaScript"
+        },
+        "sourcePath": "/home/aureooms/dev/js/js-predicate/js/src/implication.js",
+        "projectPath": "js/src/implication.js",
+        "targetPath": "implication",
+        "pageTitle": "implication",
+        "title": "implication"
+      },
+      "depth": 1,
+      "outline": []
+    }, {
+      "type": "file",
+      "data": {
+        "language": {
+          "nameMatchers": [".js"],
+          "pygmentsLexer": "javascript",
+          "multiLineComment": ["/*", "*", "*/"],
+          "singleLineComment": ["//"],
+          "ignorePrefix": "}",
+          "foldPrefix": "^",
+          "name": "JavaScript"
+        },
+        "sourcePath": "/home/aureooms/dev/js/js-predicate/js/src/negation.js",
+        "projectPath": "js/src/negation.js",
+        "targetPath": "negation",
+        "pageTitle": "negation",
+        "title": "negation"
       },
       "depth": 1,
       "outline": []
