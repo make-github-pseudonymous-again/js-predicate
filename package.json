@@ -1,0 +1,32 @@
+{
+	"homepage": "http://aureooms.github.io/js-predicate/",
+	"keywords": [
+		"bricks",
+		"javascript",
+		"js",
+		"logic",
+		"predicate"
+	],
+	"dependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/aureooms/js-predicate.git"
+	},
+	"name": "aureooms-js-predicate",
+	"scripts": {
+		"doc": "./node_modules/.bin/groc",
+		"build": "./node_modules/.bin/aureooms-node-package-build",
+		"test": "./node_modules/.bin/aureooms-node-package-test"
+	},
+	"license": "AGPL-3.0",
+	"author": "aureooms",
+	"main": "js/dist/predicate.js",
+	"devDependencies": {
+		"aureooms-node-package": "^2.0.2"
+	},
+	"bugs": {
+		"url": "https://github.com/aureooms/js-predicate/issues"
+	},
+	"description": "predicate code bricks for JavaScript",
+	"version": "0.0.0"
+}

@@ -1,0 +1,17 @@
+{
+	"debug": false,
+	"out": "js/dist/",
+	"name": "predicate",
+	"src": "js/src/",
+	"code": {
+		"test": [
+			"test",
+			"js"
+		],
+		"main": [
+			"js",
+			"dist",
+			"predicate.js"
+		]
+	}
+}
