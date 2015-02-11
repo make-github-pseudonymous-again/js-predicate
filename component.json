@@ -1,0 +1,11 @@
+{
+	"description": "predicate code bricks for JavaScript",
+	"version": "1.0.0",
+	"repo": "aureooms/js-predicate",
+	"scripts": [
+		"js/dist/predicate.js"
+	],
+	"name": "aureooms-js-predicate",
+	"license": "AGPL-3.0",
+	"main": "js/dist/predicate.js"
+}
