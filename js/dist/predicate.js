@@ -1,103 +1,192 @@
-(function(exports, undefined){
+'use strict';
+
+(function (exports, undefined) {
 
 	'use strict';
 
+	/* js/src/conjunction.js */
 
-/* js/src/conjunction.js */
+	var conjunction = function conjunction(p, q) {
+		return function (x) {
+			return p(x) && q(x);
+		};
+	};
 
-var conjunction = function ( predicates ) {
+	exports.conjunction = conjunction;
 
-	return function ( input ) {
+	/* js/src/conjunctions.js */
 
-		var i , len ;
+	// could use recursion
 
-		for ( i = 0 , len = predicates.length ; i < len ; ++i ) {
+	var conjunctions = function conjunctions(predicates) {
 
-			if ( ! predicates[i]( input ) ) {
+		return function (input) {
+			var _iteratorNormalCompletion = true;
+			var _didIteratorError = false;
+			var _iteratorError = undefined;
 
-				return false ;
+			try {
 
+				for (var _iterator = predicates[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+					var predicate = _step.value;
+
+					if (!predicate(input)) return false;
+				}
+			} catch (err) {
+				_didIteratorError = true;
+				_iteratorError = err;
+			} finally {
+				try {
+					if (!_iteratorNormalCompletion && _iterator['return']) {
+						_iterator['return']();
+					}
+				} finally {
+					if (_didIteratorError) {
+						throw _iteratorError;
+					}
+				}
 			}
 
-		}
+			return true;
+		};
+	};
 
-		return true ;
+	exports.conjunctions = conjunctions;
 
-	} ;
+	/* js/src/disjunction.js */
 
-} ;
+	var disjunction = function disjunction(p, q) {
+		return function (x) {
+			return p(x) || q(x);
+		};
+	};
 
-exports.conjunction = conjunction ;
+	exports.disjunction = disjunction;
 
-/* js/src/disjunction.js */
+	/* js/src/disjunctions.js */
 
-var disjunction = function ( predicates ) {
+	// could use recursion
 
-	return function ( input ) {
+	var disjunctions = function disjunctions(predicates) {
 
-		var i , len ;
+		return function (input) {
+			var _iteratorNormalCompletion2 = true;
+			var _didIteratorError2 = false;
+			var _iteratorError2 = undefined;
 
-		for ( i = 0 , len = predicates.length ; i < len ; ++i ) {
+			try {
 
-			if ( predicates[i]( input ) ) {
+				for (var _iterator2 = predicates[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
+					var predicate = _step2.value;
 
-				return true ;
-
+					if (predicate(input)) return true;
+				}
+			} catch (err) {
+				_didIteratorError2 = true;
+				_iteratorError2 = err;
+			} finally {
+				try {
+					if (!_iteratorNormalCompletion2 && _iterator2['return']) {
+						_iterator2['return']();
+					}
+				} finally {
+					if (_didIteratorError2) {
+						throw _iteratorError2;
+					}
+				}
 			}
 
-		}
+			return false;
+		};
+	};
 
-		return false ;
+	exports.disjunctions = disjunctions;
 
-	} ;
+	/* js/src/equivalence.js */
 
-} ;
+	var equivalence = function equivalence(p, q) {
+		return function (x) {
+			return p(x) === q(x);
+		};
+	};
 
-exports.disjunction = disjunction ;
+	exports.equivalence = equivalence;
 
+	/* js/src/implication.js */
 
-/* js/src/equivalence.js */
+	var implication = function implication(p, q) {
+		return function (x) {
+			return !p(x) || q(x);
+		};
+	};
 
-var equivalence = function ( p , q ) {
+	exports.implication = implication;
 
-	return function ( input ) {
+	/* js/src/negation.js */
 
-		return p( input ) === q( input ) ;
+	var negation = function negation(p) {
+		return function (x) {
+			return !p(x);
+		};
+	};
 
-	} ;
+	exports.negation = negation;
 
-} ;
+	/* js/src/numbers.js */
 
-exports.equivalence = equivalence ;
+	var divides = function divides(y) {
+		return function (x) {
+			return y % x === 0;
+		};
+	};
+	var divisible = function divisible(y) {
+		return function (x) {
+			return x % y === 0;
+		};
+	};
 
-/* js/src/implication.js */
+	exports.divides = divides;
+	exports.divisible = divisible;
 
-var implication = function ( p , q ) {
+	/* js/src/operators.js */
 
-	return function ( input ) {
+	var lt = function lt(y) {
+		return function (x) {
+			return x < y;
+		};
+	};
+	var le = function le(y) {
+		return function (x) {
+			return x <= y;
+		};
+	};
 
-		return ! p( input ) || q( input ) ;
+	var gt = function gt(y) {
+		return function (x) {
+			return x > y;
+		};
+	};
+	var ge = function ge(y) {
+		return function (x) {
+			return x >= y;
+		};
+	};
 
-	} ;
+	var eq = function eq(y) {
+		return function (x) {
+			return x === y;
+		};
+	};
+	var ne = function ne(y) {
+		return function (x) {
+			return x !== y;
+		};
+	};
 
-} ;
-
-exports.implication = implication ;
-
-/* js/src/negation.js */
-
-var negation = function ( predicate ) {
-
-	return function ( input ) {
-
-		return ! predicate( input ) ;
-		//     ^
-		//     '- negation
-
-	} ;
-
-} ;
-
-exports.negation = negation ;
-
-})(typeof exports === 'undefined' ? this['predicate'] = {} : exports);
+	exports.gt = gt;
+	exports.ge = ge;
+	exports.lt = lt;
+	exports.le = le;
+	exports.eq = eq;
+	exports.ne = ne;
+})(typeof exports === 'undefined' ? undefined.predicate = {} : exports);
