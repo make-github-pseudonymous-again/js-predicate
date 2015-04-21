@@ -53,3 +53,7 @@ u( ... ) ; // true
 let v = predicate.disjunction( predicate.truth , predicate.untruth ) ;
 v( ... ) ; // true
 ```
+
+References:
+
+  - https://github.com/jamestalmage/predicate-js
