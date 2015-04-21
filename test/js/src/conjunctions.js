@@ -10,13 +10,13 @@ var g = function ( x ) {
 	return x > 1 && x < 4 ;
 } ;
 
-var fg = predicate.conjunction( [ f , g ] ) ;
+var fg = predicate.conjunctions( [ f , g ] ) ;
 
 var one = function ( x ) {
 	deepEqual( fg( x ) , f( x ) &&  g( x ) , util.format("fg( %s ) === f( %s ) && g( %s )" , x , x , x ) ) ;
 } ;
 
-test( "conjunction" , function ( ) {
+test( "conjunctions" , function ( ) {
 
 	one( 1 ) ;
 	one( 2 ) ;
