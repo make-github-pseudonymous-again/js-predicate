@@ -1,12 +1,4 @@
 
-var implication = function ( p , q ) {
-
-	return function ( input ) {
-
-		return ! p( input ) || q( input ) ;
-
-	} ;
-
-} ;
+let implication = ( p , q ) => x => ! p( x ) || q( x ) ;
 
 exports.implication = implication ;

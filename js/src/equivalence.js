@@ -1,12 +1,5 @@
 
-var equivalence = function ( p , q ) {
-
-	return function ( input ) {
-
-		return p( input ) === q( input ) ;
-
-	} ;
-
-} ;
+let equivalence = ( p , q ) => x => p( x ) === q( x ) ;
 
 exports.equivalence = equivalence ;
+

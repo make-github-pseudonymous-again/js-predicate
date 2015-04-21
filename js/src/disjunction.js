@@ -1,25 +1,5 @@
 
-var disjunction = function ( predicates ) {
-
-	return function ( input ) {
-
-		var i , len ;
-
-		for ( i = 0 , len = predicates.length ; i < len ; ++i ) {
-
-			if ( predicates[i]( input ) ) {
-
-				return true ;
-
-			}
-
-		}
-
-		return false ;
-
-	} ;
-
-} ;
+let disjunction = ( p , q ) => x => p( x ) || q( x ) ;
 
 exports.disjunction = disjunction ;
 

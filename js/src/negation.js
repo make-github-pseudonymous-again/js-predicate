@@ -1,14 +1,4 @@
 
-var negation = function ( predicate ) {
-
-	return function ( input ) {
-
-		return ! predicate( input ) ;
-		//     ^
-		//     '- negation
-
-	} ;
-
-} ;
+let negation = p => x => ! p( x ) ;
 
 exports.negation = negation ;
