@@ -15,5 +15,5 @@
 	"main": "js/dist/predicate.js",
 	"name": "aureooms-js-predicate",
 	"description": "predicate code bricks for JavaScript",
-	"version": "1.0.1"
+	"version": "2.0.0"
 }
