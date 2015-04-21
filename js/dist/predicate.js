@@ -4,6 +4,18 @@
 
 	'use strict';
 
+	/* js/src/boolean.js */
+
+	var truth = function truth(x) {
+		return true;
+	};
+	var untruth = function untruth(x) {
+		return false;
+	};
+
+	exports.truth = truth;
+	exports.untruth = untruth;
+
 	/* js/src/conjunction.js */
 
 	var conjunction = function conjunction(p, q) {
