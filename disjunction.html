@@ -1,23 +1,3 @@
-<!DOCTYPE html><html lang="en"><head><title>disjunction</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content=""><meta name="groc-document-path" content="disjunction"><meta name="groc-project-path" content="js/src/disjunction.js"><meta name="groc-github-url" content="https://github.com/aureooms/js-predicate"><link rel="stylesheet" type="text/css" media="all" href="assets/style.css"><script type="text/javascript" src="assets/behavior.js"></script><body><div id="meta"><div class="file-path"><a href="https://github.com/aureooms/js-predicate/blob/master/js/src/disjunction.js">js/src/disjunction.js</a></div></div><div id="document"><div class="segment"><div class="code"><div class="wrapper"><span class="hljs-keyword">var</span> disjunction = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">( predicates )</span> </span>{
-
-	<span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">( input )</span> </span>{
-
-		<span class="hljs-keyword">var</span> i , len ;
-
-		<span class="hljs-keyword">for</span> ( i = <span class="hljs-number">0</span> , len = predicates.length ; i &lt; len ; ++i ) {
-
-			<span class="hljs-keyword">if</span> ( predicates[i]( input ) ) {
-
-				<span class="hljs-keyword">return</span> <span class="hljs-literal">true</span> ;
-
-			}
-
-		}
-
-		<span class="hljs-keyword">return</span> <span class="hljs-literal">false</span> ;
-
-	} ;
-
-} ;
+<!DOCTYPE html><html lang="en"><head><title>disjunction</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content=""><meta name="groc-document-path" content="disjunction"><meta name="groc-project-path" content="js/src/disjunction.js"><meta name="groc-github-url" content="https://github.com/aureooms/js-predicate"><link rel="stylesheet" type="text/css" media="all" href="assets/style.css"><script type="text/javascript" src="assets/behavior.js"></script><body><div id="meta"><div class="file-path"><a href="https://github.com/aureooms/js-predicate/blob/master/js/src/disjunction.js">js/src/disjunction.js</a></div></div><div id="document"><div class="segment"><div class="code"><div class="wrapper"><span class="hljs-keyword">let</span> disjunction = ( p , q ) =&gt; x =&gt; p( x ) || q( x ) ;
 
 exports.disjunction = disjunction ;</div></div></div></div></body></html>
