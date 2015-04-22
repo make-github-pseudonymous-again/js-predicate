@@ -13,6 +13,7 @@ Predicate code bricks for JavaScript.
 [![Code Climate](http://img.shields.io/codeclimate/github/aureooms/js-predicate.svg?style=flat)](https://codeclimate.com/github/aureooms/js-predicate)
 [![NPM downloads per month](http://img.shields.io/npm/dm/aureooms-js-predicate.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-predicate)
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-predicate.svg?style=flat)](https://github.com/aureooms/js-predicate/issues)
+[![Inline docs](http://inch-ci.org/github/aureooms/js-predicate.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-predicate)
 
 Can be managed through [duo](https://github.com/duojs/duo),
 [component](https://github.com/componentjs/component),
