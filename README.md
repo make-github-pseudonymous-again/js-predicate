@@ -15,46 +15,124 @@ Predicate code bricks for JavaScript.
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-predicate.svg?style=flat)](https://github.com/aureooms/js-predicate/issues)
 [![Inline docs](http://inch-ci.org/github/aureooms/js-predicate.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-predicate)
 
-Can be managed through [duo](https://github.com/duojs/duo),
+Can be managed through [jspm](https://github.com/jspm/jspm-cli),
+[duo](https://github.com/duojs/duo),
 [component](https://github.com/componentjs/component),
-[bower](https://github.com/bower/bower), or
-[npm](https://github.com/npm/npm).
+[bower](https://github.com/bower/bower),
+[ender](https://github.com/ender-js/Ender),
+[jam](https://github.com/caolan/jam),
+[spm](https://github.com/spmjs/spm),
+and [npm](https://github.com/npm/npm).
 
+## Install
+
+### jspm
+```terminal
+jspm install github:aureooms/js-predicate
+# or
+jspm install npm:aureooms-js-predicate
+```
+### duo
+No install step needed for duo!
+
+### component
+```terminal
+component install aureooms/js-predicate
+```
+
+### bower
+```terminal
+bower install aureooms-js-predicate
+```
+
+### ender
+```terminal
+ender add aureooms-js-predicate
+```
+
+### jam
+```terminal
+jam install aureooms-js-predicate
+```
+
+### spm
+```terminal
+spm install aureooms-js-predicate --save
+```
+
+### npm
+```terminal
+npm install aureooms-js-predicate --save
+```
+
+## Require
+### jspm
+```js
+let predicate = require( "github:aureooms/js-predicate" ) ;
+// or
+import predicate from 'aureooms-js-predicate' ;
+```
+### duo
+```js
+let predicate = require( "aureooms/js-predicate" ) ;
+```
+
+### component, ender, spm, npm
 ```js
 let predicate = require( "aureooms-js-predicate" ) ;
 ```
 
-Example usage:
+### bower
+The script tag exposes the global variable `predicate`.
+```html
+<script src="bower_components/aureooms-js-predicate/js/dist/predicate.min.js"></script>
+```
+Alternatively, you can use any tool mentioned [here](http://bower.io/docs/tools/).
+
+### jam
+```js
+require( [ "aureooms-js-predicate" ] , function ( predicate ) { ... } ) ;
+```
+
+## Use
 
 ```js
-let p = predicate.gt( 5 ) ;
+const {
+	lt , le , gt ,
+	truth , untruth ,
+	negation ,
+	conjunction , disjunction ,
+	implication
+} = predicate ;
+
+let p = gt( 5 ) ;
 p( 5 ) ; // false
 p( 6 ) ; // true
 
-let q = predicate.lt( 7 ) ;
+let q = lt( 7 ) ;
 q( 6 ) ; // true
 q( 7 ) ; // false
 
-let r = predicate.conjunction( p , q ) ;
+let r = conjunction( p , q ) ;
 r( 5 ) ; // false
 r( 6 ) ; // true
 r( 7 ) ; // false
 
-let s = predicate.negation( r ) ;
+let s = negation( r ) ;
 s( 5 ) ; // true
 s( 6 ) ; // false
 s( 7 ) ; // true
 
-let t = predicate.equivalence( p , predicate.negation( predicate.le( 5 ) ) ) ;
+let t = equivalence( p , negation( le( 5 ) ) ) ;
 t( ... ) ; // true
 
-let u = predicate.implication( predicate.negation( q ) , p ) ;
+let u = implication( negation( q ) , p ) ;
 u( ... ) ; // true
 
-let v = predicate.disjunction( predicate.truth , predicate.untruth ) ;
+let v = disjunction( truth , untruth ) ;
 v( ... ) ; // true
 ```
 
-References:
+## References
 
   - https://github.com/jamestalmage/predicate-js

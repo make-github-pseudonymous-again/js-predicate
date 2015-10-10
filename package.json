@@ -4,8 +4,17 @@
 		"bricks",
 		"javascript",
 		"js",
+		"boolean",
 		"logic",
-		"predicate"
+		"predicate",
+		"truth",
+		"untruth",
+		"negation",
+		"conjunction",
+		"disjunction",
+		"implication",
+		"equivalence",
+		"ender"
 	],
 	"dependencies": {},
 	"repository": {
@@ -28,5 +37,8 @@
 		"url": "https://github.com/aureooms/js-predicate/issues"
 	},
 	"description": "predicate code bricks for JavaScript",
-	"version": "2.0.1"
+	"version": "2.0.1",
+	"spm":{
+		"main": "js/dist/predicate.js"
+	}
 }
