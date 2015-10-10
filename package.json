@@ -37,8 +37,8 @@
 		"url": "https://github.com/aureooms/js-predicate/issues"
 	},
 	"description": "predicate code bricks for JavaScript",
-	"version": "2.0.1",
-	"spm":{
+	"version": "2.0.2",
+	"spm": {
 		"main": "js/dist/predicate.js"
 	}
 }

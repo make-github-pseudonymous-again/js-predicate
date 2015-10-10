@@ -1,6 +1,6 @@
 {
 	"description": "predicate code bricks for JavaScript",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"repo": "aureooms/js-predicate",
 	"scripts": [
 		"js/dist/predicate.js"
