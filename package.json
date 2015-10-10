@@ -22,7 +22,7 @@
 	"author": "aureooms",
 	"main": "js/dist/predicate.js",
 	"devDependencies": {
-		"aureooms-node-package": "^4.1.0"
+		"aureooms-node-package": "^5.0.2"
 	},
 	"bugs": {
 		"url": "https://github.com/aureooms/js-predicate/issues"
