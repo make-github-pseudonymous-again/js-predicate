@@ -21,7 +21,7 @@
 		"type": "git",
 		"url": "https://github.com/aureooms/js-predicate.git"
 	},
-	"name": "aureooms-js-predicate",
+	"name": "@aureooms/js-predicate",
 	"scripts": {
 		"doc": "./node_modules/.bin/groc",
 		"build": "./node_modules/.bin/aureooms-node-package-build",
