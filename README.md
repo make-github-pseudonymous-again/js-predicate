@@ -3,15 +3,15 @@
 
 Predicate code bricks for JavaScript.
 
-[![NPM license](http://img.shields.io/npm/l/aureooms-js-predicate.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-predicate/master/LICENSE)
-[![NPM version](http://img.shields.io/npm/v/aureooms-js-predicate.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-predicate)
-[![Bower version](http://img.shields.io/bower/v/aureooms-js-predicate.svg?style=flat)](http://bower.io/search/?q=aureooms-js-predicate)
+[![NPM license](http://img.shields.io/npm/l/@aureooms/js-predicate.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-predicate/master/LICENSE)
+[![NPM version](http://img.shields.io/npm/v/@aureooms/js-predicate.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-predicate)
+[![Bower version](http://img.shields.io/bower/v/@aureooms/js-predicate.svg?style=flat)](http://bower.io/search/?q=@aureooms/js-predicate)
 [![Build Status](http://img.shields.io/travis/aureooms/js-predicate.svg?style=flat)](https://travis-ci.org/aureooms/js-predicate)
 [![Coverage Status](http://img.shields.io/coveralls/aureooms/js-predicate.svg?style=flat)](https://coveralls.io/r/aureooms/js-predicate)
 [![Dependencies Status](http://img.shields.io/david/aureooms/js-predicate.svg?style=flat)](https://david-dm.org/aureooms/js-predicate#info=dependencies)
 [![devDependencies Status](http://img.shields.io/david/dev/aureooms/js-predicate.svg?style=flat)](https://david-dm.org/aureooms/js-predicate#info=devDependencies)
 [![Code Climate](http://img.shields.io/codeclimate/github/aureooms/js-predicate.svg?style=flat)](https://codeclimate.com/github/aureooms/js-predicate)
-[![NPM downloads per month](http://img.shields.io/npm/dm/aureooms-js-predicate.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-predicate)
+[![NPM downloads per month](http://img.shields.io/npm/dm/@aureooms/js-predicate.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-predicate)
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-predicate.svg?style=flat)](https://github.com/aureooms/js-predicate/issues)
 [![Inline docs](http://inch-ci.org/github/aureooms/js-predicate.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-predicate)
 
@@ -30,7 +30,7 @@ and [npm](https://github.com/npm/npm).
 ```terminal
 jspm install github:aureooms/js-predicate
 # or
-jspm install npm:aureooms-js-predicate
+jspm install npm:@aureooms/js-predicate
 ```
 ### duo
 No install step needed for duo!
@@ -42,27 +42,27 @@ component install aureooms/js-predicate
 
 ### bower
 ```terminal
-bower install aureooms-js-predicate
+bower install @aureooms/js-predicate
 ```
 
 ### ender
 ```terminal
-ender add aureooms-js-predicate
+ender add @aureooms/js-predicate
 ```
 
 ### jam
 ```terminal
-jam install aureooms-js-predicate
+jam install @aureooms/js-predicate
 ```
 
 ### spm
 ```terminal
-spm install aureooms-js-predicate --save
+spm install @aureooms/js-predicate --save
 ```
 
 ### npm
 ```terminal
-npm install aureooms-js-predicate --save
+npm install @aureooms/js-predicate --save
 ```
 
 ## Require
@@ -70,7 +70,7 @@ npm install aureooms-js-predicate --save
 ```js
 let predicate = require( "github:aureooms/js-predicate" ) ;
 // or
-import predicate from 'aureooms-js-predicate' ;
+import predicate from '@aureooms/js-predicate' ;
 ```
 ### duo
 ```js
@@ -79,19 +79,19 @@ let predicate = require( "aureooms/js-predicate" ) ;
 
 ### component, ender, spm, npm
 ```js
-let predicate = require( "aureooms-js-predicate" ) ;
+let predicate = require( "@aureooms/js-predicate" ) ;
 ```
 
 ### bower
 The script tag exposes the global variable `predicate`.
 ```html
-<script src="bower_components/aureooms-js-predicate/js/dist/predicate.min.js"></script>
+<script src="bower_components/@aureooms/js-predicate/js/dist/predicate.min.js"></script>
 ```
 Alternatively, you can use any tool mentioned [here](http://bower.io/docs/tools/).
 
 ### jam
 ```js
-require( [ "aureooms-js-predicate" ] , function ( predicate ) { ... } ) ;
+require( [ "@aureooms/js-predicate" ] , function ( predicate ) { ... } ) ;
 ```
 
 ## Use
