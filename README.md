@@ -21,7 +21,7 @@ implication( negation( lt( 7 ) ) , gt( 5 ) )( ... ) ; // true
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-predicate.svg)](https://codeclimate.com/github/aureooms/js-predicate/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-predicate/main.svg)](https://codecov.io/gh/aureooms/js-predicate)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-predicate.svg)](https://codeclimate.com/github/aureooms/js-predicate/trends/technical_debt)
-[![Documentation](https://aureooms.github.io/js-predicate//badge.svg)](https://aureooms.github.io/js-predicate//source.html)
+[![Documentation](https://aureooms.github.io/js-predicate/badge.svg)](https://aureooms.github.io/js-predicate/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-predicate)](https://bundlephobia.com/result?p=@aureooms/js-predicate)
 
 ## :link: Related
