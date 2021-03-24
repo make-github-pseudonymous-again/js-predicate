@@ -24,8 +24,9 @@
   "name": "@aureooms/js-predicate",
   "scripts": {
     "build": "./node_modules/.bin/aureooms-node-package-build",
-    "test": "./node_modules/.bin/aureooms-node-package-test",
-    "esdoc": null
+    "test": "ava",
+    "esdoc": null,
+    "lint": "true"
   },
   "license": "AGPL-3.0",
   "author": "aureooms",
