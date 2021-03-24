@@ -1,7 +1,7 @@
 {
   "name": "@aureooms/js-predicate",
   "description": "Predicates for JavaScript",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "license": "AGPL-3.0",
   "author": "aureooms",
   "homepage": "https://aureooms.github.io/js-predicate",
