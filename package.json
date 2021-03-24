@@ -1,6 +1,6 @@
 {
   "name": "@aureooms/js-predicate",
-  "description": "predicate code bricks for JavaScript",
+  "description": "Predicates for JavaScript",
   "version": "2.0.2",
   "license": "AGPL-3.0",
   "author": "aureooms",
