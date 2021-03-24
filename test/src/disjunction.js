@@ -14,15 +14,15 @@ var g = function ( x ) {
 
 var fg = predicate.disjunction( f , g ) ;
 
-var one = function ( x ) {
+var one = function ( t, x ) {
 	t.deepEqual( fg( x ) , f( x ) ||  g( x ) , util.format("fg( %s ) === f( %s ) || g( %s )" , x , x , x ) ) ;
 } ;
 
 test( "disjunction" , t => {
 
-	one( 1 ) ;
-	one( 2 ) ;
-	one( 3 ) ;
-	one( 4 ) ;
+	one( t, 1 ) ;
+	one( t, 2 ) ;
+	one( t, 3 ) ;
+	one( t, 4 ) ;
 
 } ) ;

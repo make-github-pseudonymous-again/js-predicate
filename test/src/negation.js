@@ -9,15 +9,15 @@ var f = function ( x ) {
 
 var F = predicate.negation( f ) ;
 
-var one = function ( x ) {
+var one = function ( t, x ) {
 	t.deepEqual( F( x ) , !f( x ) , util.format("F( %s ) === !f( %s )" , x , x ) ) ;
 } ;
 
 test( "negation" , t => {
 
-	one( 1 ) ;
-	one( 2 ) ;
-	one( 3 ) ;
-	one( 4 ) ;
+	one( t, 1 ) ;
+	one( t, 2 ) ;
+	one( t, 3 ) ;
+	one( t, 4 ) ;
 
 } ) ;
