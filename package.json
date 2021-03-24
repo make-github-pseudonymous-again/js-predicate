@@ -69,7 +69,8 @@
     "microbundle": "0.13.0",
     "np": "7.4.0",
     "pinst": "2.1.6",
-    "power-assert": "1.6.1"
+    "power-assert": "1.6.1",
+    "xo": "0.38.2"
   },
   "ava": {
     "files": [
