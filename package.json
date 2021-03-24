@@ -26,7 +26,8 @@
     "build": "NODE_ENV=production microbundle",
     "test": "ava",
     "esdoc": null,
-    "lint": "true"
+    "lint": "true",
+    "prepare": "npm run build"
   },
   "license": "AGPL-3.0",
   "author": "aureooms",
