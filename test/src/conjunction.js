@@ -1,5 +1,7 @@
+import test from 'ava';
+import * as predicate from '../../src';
 
-var util = require( "util" ) ;
+import util from "util" ;
 
 var f = function ( x ) {
 	return x < 3 ;
@@ -13,10 +15,10 @@ var g = function ( x ) {
 var fg = predicate.conjunction( f , g ) ;
 
 var one = function ( x ) {
-	deepEqual( fg( x ) , f( x ) &&  g( x ) , util.format("fg( %s ) === f( %s ) && g( %s )" , x , x , x ) ) ;
+	t.deepEqual( fg( x ) , f( x ) &&  g( x ) , util.format("fg( %s ) === f( %s ) && g( %s )" , x , x , x ) ) ;
 } ;
 
-test( "conjunction" , function ( ) {
+test( "conjunction" , t => {
 
 	one( 1 ) ;
 	one( 2 ) ;

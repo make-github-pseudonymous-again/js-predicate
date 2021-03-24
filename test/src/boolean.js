@@ -1,7 +1,9 @@
+import test from 'ava';
+import * as predicate from '../../src';
 
-test( "boolean" , function ( ) {
+test( "boolean" , t => {
 
-	ok( predicate.truth( ) , "truth" ) ;
-	ok( !predicate.untruth( ) , "untruth" ) ;
+	t.truthy( predicate.truth( ) , "truth" ) ;
+	t.truthy( !predicate.untruth( ) , "untruth" ) ;
 
 } ) ;

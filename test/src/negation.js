@@ -1,5 +1,7 @@
+import test from 'ava';
+import * as predicate from '../../src';
 
-var util = require( "util" ) ;
+import util from "util" ;
 
 var f = function ( x ) {
 	return x < 3 ;
@@ -8,10 +10,10 @@ var f = function ( x ) {
 var F = predicate.negation( f ) ;
 
 var one = function ( x ) {
-	deepEqual( F( x ) , !f( x ) , util.format("F( %s ) === !f( %s )" , x , x ) ) ;
+	t.deepEqual( F( x ) , !f( x ) , util.format("F( %s ) === !f( %s )" , x , x ) ) ;
 } ;
 
-test( "negation" , function ( ) {
+test( "negation" , t => {
 
 	one( 1 ) ;
 	one( 2 ) ;
