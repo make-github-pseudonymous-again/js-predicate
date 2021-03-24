@@ -62,5 +62,87 @@
   "version": "2.0.2",
   "spm": {
     "main": "js/dist/predicate.js"
+  },
+  "babel": {
+    "sourceMaps": true,
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": [
+            "defaults",
+            "maintained node versions"
+          ]
+        }
+      ]
+    ],
+    "env": {
+      "debug": {
+        "presets": [
+          [
+            "@babel/preset-env",
+            {
+              "targets": "current node"
+            }
+          ],
+          "babel-preset-power-assert"
+        ]
+      },
+      "test": {
+        "presets": [
+          [
+            "@babel/preset-env",
+            {
+              "targets": "current node"
+            }
+          ],
+          "babel-preset-power-assert"
+        ],
+        "plugins": [
+          [
+            "transform-remove-console",
+            {
+              "exclude": [
+                "log",
+                "error",
+                "warn"
+              ]
+            }
+          ]
+        ]
+      },
+      "development": {
+        "presets": [
+          "babel-preset-power-assert"
+        ],
+        "plugins": [
+          [
+            "transform-remove-console",
+            {
+              "exclude": [
+                "log",
+                "error",
+                "warn"
+              ]
+            }
+          ]
+        ]
+      },
+      "production": {
+        "plugins": [
+          "babel-plugin-unassert",
+          [
+            "transform-remove-console",
+            {
+              "exclude": [
+                "log",
+                "error",
+                "warn"
+              ]
+            }
+          ]
+        ]
+      }
+    }
   }
 }
