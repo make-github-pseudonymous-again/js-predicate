@@ -1,4 +1,2 @@
-
-export let truth = x => true ;
-export let untruth = x => false ;
-
+export let truth = _ => true ;
+export let untruth = _ => false ;
