@@ -65,9 +65,6 @@
   },
   "description": "predicate code bricks for JavaScript",
   "version": "2.0.2",
-  "spm": {
-    "main": "js/dist/predicate.js"
-  },
   "babel": {
     "sourceMaps": true,
     "presets": [
