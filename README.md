@@ -3,17 +3,20 @@
 
 Predicate code bricks for JavaScript.
 
-[![License](https://img.shields.io/github/license/aureooms/js-predicate.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-predicate/main/LICENSE)
-[![NPM version](https://img.shields.io/npm/v/@aureooms/js-predicate.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-predicate)
-[![Bower version](https://img.shields.io/bower/v/@aureooms/js-predicate.svg?style=flat)](http://bower.io/search/?q=@aureooms/js-predicate)
-[![Build Status](https://img.shields.io/travis/aureooms/js-predicate.svg?style=flat)](https://travis-ci.org/aureooms/js-predicate)
-[![Coverage Status](https://img.shields.io/coveralls/aureooms/js-predicate.svg?style=flat)](https://coveralls.io/r/aureooms/js-predicate)
-[![Dependencies Status](https://img.shields.io/david/aureooms/js-predicate.svg?style=flat)](https://david-dm.org/aureooms/js-predicate#info=dependencies)
-[![devDependencies Status](https://img.shields.io/david/dev/aureooms/js-predicate.svg?style=flat)](https://david-dm.org/aureooms/js-predicate#info=devDependencies)
-[![Code Climate](https://img.shields.io/codeclimate/github/aureooms/js-predicate.svg?style=flat)](https://codeclimate.com/github/aureooms/js-predicate)
-[![NPM downloads per month](https://img.shields.io/npm/dm/@aureooms/js-predicate.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-predicate)
-[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-predicate.svg?style=flat)](https://github.com/aureooms/js-predicate/issues)
-[![Inline docs](http://inch-ci.org/github/aureooms/js-predicate.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-predicate)
+[![License](https://img.shields.io/github/license/aureooms/js-predicate.svg)](https://raw.githubusercontent.com/aureooms/js-predicate/main/LICENSE)
+[![Version](https://img.shields.io/npm/v/@aureooms/js-predicate.svg)](https://www.npmjs.org/package/@aureooms/js-predicate)
+[![Build](https://img.shields.io/travis/aureooms/js-predicate/main.svg)](https://travis-ci.com/aureooms/js-predicate/branches)
+[![Dependencies](https://img.shields.io/david/aureooms/js-predicate.svg)](https://david-dm.org/aureooms/js-predicate)
+[![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-predicate.svg)](https://david-dm.org/aureooms/js-predicate?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-predicate.svg)](https://github.com/aureooms/js-predicate/issues)
+[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-predicate.svg)](https://www.npmjs.org/package/@aureooms/js-predicate)
+
+[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-predicate.svg)](https://codeclimate.com/github/aureooms/js-predicate/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-predicate.svg)](https://codeclimate.com/github/aureooms/js-predicate/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-predicate/main.svg)](https://codecov.io/gh/aureooms/js-predicate)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-predicate.svg)](https://codeclimate.com/github/aureooms/js-predicate/trends/technical_debt)
+[![Documentation](https://aureooms.github.io/js-predicate//badge.svg)](https://aureooms.github.io/js-predicate//source.html)
+[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-predicate)](https://bundlephobia.com/result?p=@aureooms/js-predicate)
 
 Can be managed through [jspm](https://github.com/jspm/jspm-cli),
 [duo](https://github.com/duojs/duo),
