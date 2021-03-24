@@ -23,14 +23,14 @@
   },
   "name": "@aureooms/js-predicate",
   "scripts": {
-    "build": "./node_modules/.bin/aureooms-node-package-build",
+    "build": "NODE_ENV=production microbundle",
     "test": "ava",
     "esdoc": null,
     "lint": "true"
   },
   "license": "AGPL-3.0",
   "author": "aureooms",
-  "main": "js/dist/predicate.js",
+  "main": "dist/index.js",
   "devDependencies": {
     "aureooms-node-package": "^6.0.1",
     "@babel/core": "7.13.10",
