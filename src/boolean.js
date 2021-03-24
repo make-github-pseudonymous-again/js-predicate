@@ -1,6 +1,4 @@
 
-let truth = x => true ;
-let untruth = x => false ;
+export let truth = x => true ;
+export let untruth = x => false ;
 
-exports.truth = truth ;
-exports.untruth = untruth ;

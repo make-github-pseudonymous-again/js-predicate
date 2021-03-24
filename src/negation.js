@@ -1,4 +1,3 @@
 
-let negation = p => x => ! p( x ) ;
+export let negation = p => x => ! p( x ) ;
 
-exports.negation = negation ;

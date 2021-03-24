@@ -1,7 +1,7 @@
 
 // could use recursion
 
-let disjunctions = function ( predicates ) {
+export function disjunctions ( predicates ) {
 
 	return function ( input ) {
 
@@ -15,6 +15,5 @@ let disjunctions = function ( predicates ) {
 
 	} ;
 
-} ;
+}
 
-exports.disjunctions = disjunctions ;
