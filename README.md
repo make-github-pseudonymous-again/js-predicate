@@ -3,7 +3,7 @@
 
 Predicate code bricks for JavaScript.
 
-[![License](https://img.shields.io/github/license/aureooms/js-predicate.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-predicate/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-predicate.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-predicate/main/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-predicate.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-predicate)
 [![Bower version](https://img.shields.io/bower/v/@aureooms/js-predicate.svg?style=flat)](http://bower.io/search/?q=@aureooms/js-predicate)
 [![Build Status](https://img.shields.io/travis/aureooms/js-predicate.svg?style=flat)](https://travis-ci.org/aureooms/js-predicate)
