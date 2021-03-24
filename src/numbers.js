@@ -1,4 +1,2 @@
-
-export let divides = y => x => y % x === 0 ;
-export let divisible = y => x => x % y === 0 ;
-
+export const divides = (y) => (x) => y % x === 0;
+export const divisible = (y) => (x) => x % y === 0;

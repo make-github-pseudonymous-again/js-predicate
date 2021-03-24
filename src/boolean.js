@@ -1,2 +1,2 @@
-export let truth = _ => true ;
-export let untruth = _ => false ;
+export const truth = (_) => true;
+export const untruth = (_) => false;

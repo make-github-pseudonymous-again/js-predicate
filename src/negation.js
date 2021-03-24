@@ -1,3 +1,1 @@
-
-export let negation = p => x => ! p( x ) ;
-
+export const negation = (p) => (x) => !p(x);

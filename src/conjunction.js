@@ -1,3 +1,1 @@
-
-export let conjunction = ( p , q ) => x => p( x ) && q( x ) ;
-
+export const conjunction = (p, q) => (x) => p(x) && q(x);
