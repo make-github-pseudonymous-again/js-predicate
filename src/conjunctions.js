@@ -1,11 +1,8 @@
 // Could use recursion
+export const conjunctions = (predicates) => (input) => {
+	for (const predicate of predicates) {
+		if (!predicate(input)) return false;
+	}
 
-export function conjunctions(predicates) {
-	return function (input) {
-		for (const predicate of predicates) {
-			if (!predicate(input)) return false;
-		}
-
-		return true;
-	};
-}
+	return true;
+};

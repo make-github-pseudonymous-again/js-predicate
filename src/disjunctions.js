@@ -1,11 +1,8 @@
 // Could use recursion
+export const disjunctions = (predicates) => (input) => {
+	for (const predicate of predicates) {
+		if (predicate(input)) return true;
+	}
 
-export function disjunctions(predicates) {
-	return function (input) {
-		for (const predicate of predicates) {
-			if (predicate(input)) return true;
-		}
-
-		return false;
-	};
-}
+	return false;
+};
