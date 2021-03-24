@@ -156,5 +156,8 @@
       "@babel/register"
     ],
     "timeout": "1m"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
