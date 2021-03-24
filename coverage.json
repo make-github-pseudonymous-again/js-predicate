@@ -22,7 +22,7 @@
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        3
+        2
       ]
     },
     "src/disjunction.js": {
@@ -36,7 +36,7 @@
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        3
+        2
       ]
     },
     "src/equivalence.js": {

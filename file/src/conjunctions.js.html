@@ -52,16 +52,13 @@
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/conjunctions.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">// Could use recursion
+export const conjunctions = (predicates) =&gt; (input) =&gt; {
+	for (const predicate of predicates) {
+		if (!predicate(input)) return false;
+	}
 
-export function conjunctions(predicates) {
-	return function (input) {
-		for (const predicate of predicates) {
-			if (!predicate(input)) return false;
-		}
-
-		return true;
-	};
-}
+	return true;
+};
 </code></pre>
 
 </div>
