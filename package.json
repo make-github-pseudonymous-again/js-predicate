@@ -1,70 +1,18 @@
 {
-  "homepage": "http://aureooms.github.io/js-predicate/",
-  "keywords": [
-    "bricks",
-    "javascript",
-    "js",
-    "boolean",
-    "logic",
-    "predicate",
-    "truth",
-    "untruth",
-    "negation",
-    "conjunction",
-    "disjunction",
-    "implication",
-    "equivalence",
-    "ender"
-  ],
-  "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/aureooms/js-predicate.git"
-  },
   "name": "@aureooms/js-predicate",
-  "scripts": {
-    "build": "NODE_ENV=production microbundle",
-    "test": "ava",
-    "esdoc": null,
-    "lint": "true",
-    "prepare": "npm run build",
-    "cover": "c8 --all --src src --reporter=lcov npm test",
-    "dev": "npm run lint-config-and-fix && npm run lint-and-fix && npm run cover -- -- -st --fail-fast",
-    "travis": "npm run lint-config && npm run lint && npm run cover",
-    "release": "np --message ':hatching_chick: release: Bumping to v%s.'"
-  },
-  "license": "AGPL-3.0",
-  "author": "aureooms",
-  "main": "dist/index.js",
-  "devDependencies": {
-    "@babel/core": "7.13.10",
-    "@babel/preset-env": "7.13.12",
-    "@babel/register": "7.13.8",
-    "@commitlint/cli": "12.0.1",
-    "@js-library/commitlint-config": "0.0.4",
-    "ava": "3.15.0",
-    "babel-plugin-transform-remove-console": "6.9.4",
-    "babel-plugin-unassert": "3.0.1",
-    "babel-preset-power-assert": "3.0.0",
-    "c8": "7.6.0",
-    "coveralls": "3.1.0",
-    "esdoc": "1.1.0",
-    "esdoc-inject-script-plugin": "1.0.0",
-    "esdoc-inject-style-plugin": "1.0.0",
-    "esdoc-standard-plugin": "1.0.0",
-    "fixpack": "4.0.0",
-    "husky": "5.2.0",
-    "lint-staged": "10.5.4",
-    "microbundle": "0.13.0",
-    "np": "7.4.0",
-    "pinst": "2.1.6",
-    "power-assert": "1.6.1"
-  },
-  "bugs": {
-    "url": "https://github.com/aureooms/js-predicate/issues"
-  },
   "description": "predicate code bricks for JavaScript",
   "version": "2.0.2",
+  "author": "aureooms",
+  "ava": {
+    "files": [
+      "test/src/**/*"
+    ],
+    "require": [
+      "regenerator-runtime/runtime",
+      "@babel/register"
+    ],
+    "timeout": "1m"
+  },
   "babel": {
     "sourceMaps": true,
     "presets": [
@@ -147,18 +95,70 @@
       }
     }
   },
-  "ava": {
-    "files": [
-      "test/src/**/*"
-    ],
-    "require": [
-      "regenerator-runtime/runtime",
-      "@babel/register"
-    ],
-    "timeout": "1m"
+  "bugs": {
+    "url": "https://github.com/aureooms/js-predicate/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.13.10",
+    "@babel/preset-env": "7.13.12",
+    "@babel/register": "7.13.8",
+    "@commitlint/cli": "12.0.1",
+    "@js-library/commitlint-config": "0.0.4",
+    "ava": "3.15.0",
+    "babel-plugin-transform-remove-console": "6.9.4",
+    "babel-plugin-unassert": "3.0.1",
+    "babel-preset-power-assert": "3.0.0",
+    "c8": "7.6.0",
+    "coveralls": "3.1.0",
+    "esdoc": "1.1.0",
+    "esdoc-inject-script-plugin": "1.0.0",
+    "esdoc-inject-style-plugin": "1.0.0",
+    "esdoc-standard-plugin": "1.0.0",
+    "fixpack": "4.0.0",
+    "husky": "5.2.0",
+    "lint-staged": "10.5.4",
+    "microbundle": "0.13.0",
+    "np": "7.4.0",
+    "pinst": "2.1.6",
+    "power-assert": "1.6.1"
   },
   "files": [
     "dist"
   ],
+  "homepage": "http://aureooms.github.io/js-predicate/",
+  "keywords": [
+    "boolean",
+    "bricks",
+    "conjunction",
+    "disjunction",
+    "ender",
+    "equivalence",
+    "implication",
+    "javascript",
+    "js",
+    "logic",
+    "negation",
+    "predicate",
+    "truth",
+    "untruth"
+  ],
+  "license": "AGPL-3.0",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aureooms/js-predicate.git"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production microbundle",
+    "cover": "c8 --all --src src --reporter=lcov npm test",
+    "dev": "npm run lint-config-and-fix && npm run lint-and-fix && npm run cover -- -- -st --fail-fast",
+    "esdoc": null,
+    "lint": "true",
+    "prepare": "npm run build",
+    "release": "np --message ':hatching_chick: release: Bumping to v%s.'",
+    "test": "ava",
+    "travis": "npm run lint-config && npm run lint && npm run cover"
+  },
   "sideEffects": false
 }
