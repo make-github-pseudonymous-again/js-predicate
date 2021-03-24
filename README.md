@@ -1,4 +1,4 @@
-[js-predicate](http://aureooms.github.io/js-predicate)
+[@aureooms/js-predicate](https://aureooms.github.io/js-predicate)
 ==
 
 Predicate code bricks for JavaScript.
