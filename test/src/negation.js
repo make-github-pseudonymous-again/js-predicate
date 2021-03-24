@@ -1,16 +1,16 @@
 import test from 'ava';
 import * as predicate from '../../src';
 
-import util from "util" ;
+import {format} from "util";
 
 var f = function ( x ) {
 	return x < 3 ;
 } ;
 
-var F = predicate.negation( f ) ;
+var g = predicate.negation( f ) ;
 
 var one = function ( t, x ) {
-	t.deepEqual( F( x ) , !f( x ) , util.format("F( %s ) === !f( %s )" , x , x ) ) ;
+	t.deepEqual( g( x ) , !f( x ) , format("g( %s ) === !f( %s )" , x , x ) ) ;
 } ;
 
 test( "negation" , t => {

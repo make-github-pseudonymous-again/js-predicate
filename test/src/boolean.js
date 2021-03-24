@@ -3,7 +3,7 @@ import * as predicate from '../../src';
 
 test( "boolean" , t => {
 
-	t.truthy( predicate.truth( ) , "truth" ) ;
-	t.truthy( !predicate.untruth( ) , "untruth" ) ;
+	t.true( predicate.truth( ) , "truth" ) ;
+	t.true( !predicate.untruth( ) , "untruth" ) ;
 
 } ) ;
