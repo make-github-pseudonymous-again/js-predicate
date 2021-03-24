@@ -1,5 +1,5 @@
 import test from 'ava';
-import * as predicate from '../../src';
+import * as predicate from "../../src/index.js";
 
 import {format} from "util";
 
