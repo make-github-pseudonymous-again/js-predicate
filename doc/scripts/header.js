@@ -17,7 +17,8 @@ domReady(() => {
 	header.insertBefore(projectname, header.firstChild);
 
 	const testlink = document.querySelector('header > a[data-ice="testLink"]');
-	testlink.href = 'https://coveralls.io/github/aureooms/js-predicate';
+	testlink.href =
+		'https://coveralls.io/github/make-github-pseudonymous-again/js-predicate';
 	testlink.target = '_BLANK';
 
 	const searchBox = document.querySelector('.search-box');
