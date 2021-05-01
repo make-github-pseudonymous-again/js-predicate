@@ -1,104 +1,104 @@
 window.esdocSearchIndex = [
   [
-    "@aureooms/js-predicate/src/conjunction.js~conjunction",
+    "@functional-abstraction/predicate/src/conjunction.js~conjunction",
     "function/index.html#static-function-conjunction",
-    "<span>conjunction</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/conjunction.js</span>",
+    "<span>conjunction</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/conjunction.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-predicate/src/conjunctions.js~conjunctions",
+    "@functional-abstraction/predicate/src/conjunctions.js~conjunctions",
     "function/index.html#static-function-conjunctions",
-    "<span>conjunctions</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/conjunctions.js</span>",
+    "<span>conjunctions</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/conjunctions.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-predicate/src/disjunction.js~disjunction",
+    "@functional-abstraction/predicate/src/disjunction.js~disjunction",
     "function/index.html#static-function-disjunction",
-    "<span>disjunction</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/disjunction.js</span>",
+    "<span>disjunction</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/disjunction.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-predicate/src/disjunctions.js~disjunctions",
+    "@functional-abstraction/predicate/src/disjunctions.js~disjunctions",
     "function/index.html#static-function-disjunctions",
-    "<span>disjunctions</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/disjunctions.js</span>",
+    "<span>disjunctions</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/disjunctions.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-predicate/src/numbers.js~divides",
+    "@functional-abstraction/predicate/src/numbers.js~divides",
     "function/index.html#static-function-divides",
-    "<span>divides</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/numbers.js</span>",
+    "<span>divides</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/numbers.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-predicate/src/numbers.js~divisible",
+    "@functional-abstraction/predicate/src/numbers.js~divisible",
     "function/index.html#static-function-divisible",
-    "<span>divisible</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/numbers.js</span>",
+    "<span>divisible</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/numbers.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-predicate/src/operators.js~eq",
+    "@functional-abstraction/predicate/src/operators.js~eq",
     "function/index.html#static-function-eq",
-    "<span>eq</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/operators.js</span>",
+    "<span>eq</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/operators.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-predicate/src/equivalence.js~equivalence",
+    "@functional-abstraction/predicate/src/equivalence.js~equivalence",
     "function/index.html#static-function-equivalence",
-    "<span>equivalence</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/equivalence.js</span>",
+    "<span>equivalence</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/equivalence.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-predicate/src/operators.js~ge",
+    "@functional-abstraction/predicate/src/operators.js~ge",
     "function/index.html#static-function-ge",
-    "<span>ge</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/operators.js</span>",
+    "<span>ge</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/operators.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-predicate/src/operators.js~gt",
+    "@functional-abstraction/predicate/src/operators.js~gt",
     "function/index.html#static-function-gt",
-    "<span>gt</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/operators.js</span>",
+    "<span>gt</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/operators.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-predicate/src/implication.js~implication",
+    "@functional-abstraction/predicate/src/implication.js~implication",
     "function/index.html#static-function-implication",
-    "<span>implication</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/implication.js</span>",
+    "<span>implication</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/implication.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-predicate/src/operators.js~le",
+    "@functional-abstraction/predicate/src/operators.js~le",
     "function/index.html#static-function-le",
-    "<span>le</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/operators.js</span>",
+    "<span>le</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/operators.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-predicate/src/operators.js~lt",
+    "@functional-abstraction/predicate/src/operators.js~lt",
     "function/index.html#static-function-lt",
-    "<span>lt</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/operators.js</span>",
+    "<span>lt</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/operators.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-predicate/src/operators.js~ne",
+    "@functional-abstraction/predicate/src/operators.js~ne",
     "function/index.html#static-function-ne",
-    "<span>ne</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/operators.js</span>",
+    "<span>ne</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/operators.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-predicate/src/negation.js~negation",
+    "@functional-abstraction/predicate/src/negation.js~negation",
     "function/index.html#static-function-negation",
-    "<span>negation</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/negation.js</span>",
+    "<span>negation</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/negation.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-predicate/src/boolean.js~truth",
+    "@functional-abstraction/predicate/src/boolean.js~truth",
     "function/index.html#static-function-truth",
-    "<span>truth</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/boolean.js</span>",
+    "<span>truth</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/boolean.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-predicate/src/boolean.js~untruth",
+    "@functional-abstraction/predicate/src/boolean.js~untruth",
     "function/index.html#static-function-untruth",
-    "<span>untruth</span> <span class=\"search-result-import-path\">@aureooms/js-predicate/src/boolean.js</span>",
+    "<span>untruth</span> <span class=\"search-result-import-path\">@functional-abstraction/predicate/src/boolean.js</span>",
     "function"
   ],
   [
