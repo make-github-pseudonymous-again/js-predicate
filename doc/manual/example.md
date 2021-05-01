@@ -1,3 +1,3 @@
 # Examples
 
-> More examples in [the test files](https://github.com/make-github-pseudonymous-again/js-predicate/tree/main/test/src).
+> More examples in [the test files](https://github.com/functional-abstraction/predicate/tree/main/test/src).

@@ -1,28 +1,28 @@
 :question:
-[@aureooms/js-predicate](https://make-github-pseudonymous-again.github.io/js-predicate)
+[@functional-abstraction/predicate](https://functional-abstraction.github.io/predicate)
 ==
 
 Predicates for JavaScript.
-See [docs](https://make-github-pseudonymous-again.github.io/js-predicate).
+See [docs](https://functional-abstraction.github.io/predicate).
 
 ```js
 implication( negation( lt( 7 ) ) , gt( 5 ) )( ... ) ; // true
 ```
 
-[![License](https://img.shields.io/github/license/make-github-pseudonymous-again/js-predicate.svg)](https://raw.githubusercontent.com/make-github-pseudonymous-again/js-predicate/main/LICENSE)
-[![Version](https://img.shields.io/npm/v/@aureooms/js-predicate.svg)](https://www.npmjs.org/package/@aureooms/js-predicate)
-[![Tests](https://img.shields.io/github/workflow/status/make-github-pseudonymous-again/js-predicate/ci:test?event=push&label=tests)](https://github.com/make-github-pseudonymous-again/js-predicate/actions/workflows/ci:test.yml?query=branch:main)
-[![Dependencies](https://img.shields.io/david/make-github-pseudonymous-again/js-predicate.svg)](https://david-dm.org/make-github-pseudonymous-again/js-predicate)
-[![Dev dependencies](https://img.shields.io/david/dev/make-github-pseudonymous-again/js-predicate.svg)](https://david-dm.org/make-github-pseudonymous-again/js-predicate?type=dev)
-[![GitHub issues](https://img.shields.io/github/issues/make-github-pseudonymous-again/js-predicate.svg)](https://github.com/make-github-pseudonymous-again/js-predicate/issues)
-[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-predicate.svg)](https://www.npmjs.org/package/@aureooms/js-predicate)
+[![License](https://img.shields.io/github/license/functional-abstraction/predicate.svg)](https://raw.githubusercontent.com/functional-abstraction/predicate/main/LICENSE)
+[![Version](https://img.shields.io/npm/v/@functional-abstraction/predicate.svg)](https://www.npmjs.org/package/@functional-abstraction/predicate)
+[![Tests](https://img.shields.io/github/workflow/status/functional-abstraction/predicate/ci:test?event=push&label=tests)](https://github.com/functional-abstraction/predicate/actions/workflows/ci:test.yml?query=branch:main)
+[![Dependencies](https://img.shields.io/david/functional-abstraction/predicate.svg)](https://david-dm.org/functional-abstraction/predicate)
+[![Dev dependencies](https://img.shields.io/david/dev/functional-abstraction/predicate.svg)](https://david-dm.org/functional-abstraction/predicate?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/functional-abstraction/predicate.svg)](https://github.com/functional-abstraction/predicate/issues)
+[![Downloads](https://img.shields.io/npm/dm/@functional-abstraction/predicate.svg)](https://www.npmjs.org/package/@functional-abstraction/predicate)
 
-[![Code issues](https://img.shields.io/codeclimate/issues/make-github-pseudonymous-again/js-predicate.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-predicate/issues)
-[![Code maintainability](https://img.shields.io/codeclimate/maintainability/make-github-pseudonymous-again/js-predicate.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-predicate/trends/churn)
-[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/make-github-pseudonymous-again/js-predicate/main.svg)](https://codecov.io/gh/make-github-pseudonymous-again/js-predicate)
-[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/make-github-pseudonymous-again/js-predicate.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-predicate/trends/technical_debt)
-[![Documentation](https://make-github-pseudonymous-again.github.io/js-predicate/badge.svg)](https://make-github-pseudonymous-again.github.io/js-predicate/source.html)
-[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-predicate)](https://bundlephobia.com/result?p=@aureooms/js-predicate)
+[![Code issues](https://img.shields.io/codeclimate/issues/functional-abstraction/predicate.svg)](https://codeclimate.com/github/functional-abstraction/predicate/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/functional-abstraction/predicate.svg)](https://codeclimate.com/github/functional-abstraction/predicate/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/functional-abstraction/predicate/main.svg)](https://codecov.io/gh/functional-abstraction/predicate)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/functional-abstraction/predicate.svg)](https://codeclimate.com/github/functional-abstraction/predicate/trends/technical_debt)
+[![Documentation](https://functional-abstraction.github.io/predicate/badge.svg)](https://functional-abstraction.github.io/predicate/source.html)
+[![Package size](https://img.shields.io/bundlephobia/minzip/@functional-abstraction/predicate)](https://bundlephobia.com/result?p=@functional-abstraction/predicate)
 
 ## :link: Related
 

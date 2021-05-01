@@ -1,16 +1,16 @@
 {
-  "name": "@aureooms/js-predicate",
+  "name": "@functional-abstraction/predicate",
   "description": "Predicates for JavaScript",
   "version": "3.0.1",
   "license": "AGPL-3.0",
-  "author": "aureooms",
-  "homepage": "https://make-github-pseudonymous-again.github.io/js-predicate",
+  "author": "make-github-pseudonymous-again",
+  "homepage": "https://functional-abstraction.github.io/predicate",
   "repository": {
     "type": "git",
-    "url": "https://github.com/make-github-pseudonymous-again/js-predicate"
+    "url": "https://github.com/functional-abstraction/predicate"
   },
   "bugs": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-predicate/issues"
+    "url": "https://github.com/functional-abstraction/predicate/issues"
   },
   "keywords": [
     "boolean",

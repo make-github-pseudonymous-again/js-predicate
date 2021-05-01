@@ -1,5 +1,5 @@
 # Installation
 
 ```terminal
-yarn add @aureooms/js-predicate
+yarn add @functional-abstraction/predicate
 ```
