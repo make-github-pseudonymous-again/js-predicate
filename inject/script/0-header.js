@@ -17,8 +17,7 @@ domReady(() => {
 	header.insertBefore(projectname, header.firstChild);
 
 	const testlink = document.querySelector('header > a[data-ice="testLink"]');
-	testlink.href =
-		'https://coveralls.io/github/functional-abstraction/predicate';
+	testlink.href = 'https://app.codecov.io/gh/functional-abstraction/predicate';
 	testlink.target = '_BLANK';
 
 	const searchBox = document.querySelector('.search-box');
