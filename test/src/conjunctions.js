@@ -1,8 +1,6 @@
 import test from 'ava';
 import * as predicate from '../../src/index.js';
 
-import {format} from 'util';
-
 const f = function (x) {
 	return x < 3;
 };
@@ -14,11 +12,7 @@ const g = function (x) {
 const fg = predicate.conjunctions([f, g]);
 
 const one = function (t, x) {
-	t.deepEqual(
-		fg(x),
-		f(x) && g(x),
-		format('fg( %s ) === f( %s ) && g( %s )', x, x, x),
-	);
+	t.deepEqual(fg(x), f(x) && g(x), `fg( ${x} ) === f( ${x} ) && g( ${x} )`);
 };
 
 test('conjunctions', (t) => {

@@ -1,8 +1,6 @@
 import test from 'ava';
 import * as predicate from '../../src/index.js';
 
-import {format} from 'util';
-
 const f = function (x) {
 	return x < 3;
 };
@@ -10,7 +8,7 @@ const f = function (x) {
 const g = predicate.negation(f);
 
 const one = function (t, x) {
-	t.deepEqual(g(x), !f(x), format('g( %s ) === !f( %s )', x, x));
+	t.deepEqual(g(x), !f(x), `g( ${x} ) === !f( ${x} )`);
 };
 
 test('negation', (t) => {
