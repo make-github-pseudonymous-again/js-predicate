@@ -1,5 +1,5 @@
 import test from 'ava';
-import * as predicate from '../../src/index.js';
+import * as predicate from '#module';
 
 const f = function (x) {
 	return x < 3;

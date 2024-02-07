@@ -11,7 +11,7 @@ implication( negation( lt( 7 ) ) , gt( 5 ) )( ... ) ; // true
 
 [![License](https://img.shields.io/github/license/functional-abstraction/predicate.svg)](https://raw.githubusercontent.com/functional-abstraction/predicate/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@functional-abstraction/predicate.svg)](https://www.npmjs.org/package/@functional-abstraction/predicate)
-[![Tests](https://img.shields.io/github/workflow/status/functional-abstraction/predicate/ci:test?event=push&label=tests)](https://github.com/functional-abstraction/predicate/actions/workflows/ci:test.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/workflow/status/functional-abstraction/predicate/ci?event=push&label=tests)](https://github.com/functional-abstraction/predicate/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/functional-abstraction/predicate.svg)](https://github.com/functional-abstraction/predicate/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/functional-abstraction/predicate.svg)](https://github.com/functional-abstraction/predicate/issues)
 [![Downloads](https://img.shields.io/npm/dm/@functional-abstraction/predicate.svg)](https://www.npmjs.org/package/@functional-abstraction/predicate)

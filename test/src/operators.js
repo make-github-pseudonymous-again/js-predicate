@@ -1,5 +1,5 @@
 import test from 'ava';
-import * as predicate from '../../src/index.js';
+import * as predicate from '#module';
 
 test('operators', (t) => {
 	const gt5 = predicate.gt(5);
